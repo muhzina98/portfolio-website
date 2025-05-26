@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.hero {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(216, 163, 94);
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-content h2 span {
+  color: #7749e2;
+}
+
+.tagline {
+  font-size:25px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  
+  font-size: 1rem;
+  border-radius: 25px;
+ 
+}
+
+.btn:hover {
+  background-color: #d4591275
+}
+@media (max-width: 576px) {
+  .hero-content h2 {
+    font-size: 2rem;
+  }
+
+  .hero-content .tagline {
+    font-size: 1rem;
+  }
+
+  .hero-content .btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+.skillbackground{
+
+background-color: rgb(175, 160, 175);
+padding-bottom: 5px;
+}
